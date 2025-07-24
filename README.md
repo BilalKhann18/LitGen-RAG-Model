@@ -1,4 +1,4 @@
-# 📚 GenAI Literature Review Assistant (RAG System)
+# GenAI Literature Review Assistant (RAG System)
 
 This project is an end-to-end **Retrieval-Augmented Generation (RAG)** pipeline developed as part of the *Generative AI* module in the MSc Business Analytics programme at **Warwick Business School**. It demonstrates how unstructured academic content can be transformed into an interactive, explainable, and semantically searchable knowledge system using modern GenAI techniques.
 
@@ -6,7 +6,7 @@ The system is designed to automate literature reviews by integrating document pr
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 The application begins with a corpus of academic PDFs, which are parsed and split using a hybrid chunking approach. Documents are first segmented semantically via Markdown-style headers, followed by recursive character-based splitting with overlap to preserve context. These chunks are embedded using **OpenAI’s embedding models** (e.g., `text-embedding-3`), and stored in a **ChromaDB** vector database optimised for **cosine similarity** search.
 
@@ -21,7 +21,7 @@ The final output is served through a **Gradio** interface that allows users to i
 
 ---
 
-## 💡 Broader Implications
+## Broader Implications
 
 While the initial use case focused on automating academic literature reviews, the architecture is domain-agnostic. With minimal adaptation, it can be deployed for:
 
@@ -34,7 +34,7 @@ Any domain that relies on trust, traceability, and structured insight from large
 
 ---
 
-## 🔍 Key Components
+## Key Components
 
 - **LangChain-based pipeline**: Prompt templating, document ingestion, and conversational memory  
 - **OpenAI Embeddings + GPT-4o-mini**: For semantic representation and natural language generation  
@@ -44,13 +44,9 @@ Any domain that relies on trust, traceability, and structured insight from large
 
 ---
 
-## 🧪 Learning Outcomes
+## Learning Outcomes
 
 This project was my first deep dive into GenAI systems. It pushed me to go beyond theory and build a working application that integrates multiple components of the modern NLP stack — from document parsing and semantic indexing to retrieval, prompting, and generation. Most importantly, it taught me how GenAI can be used not just for content creation, but for **evidence-based reasoning and decision support**.
 
 ---
 
-## 🔗 Repository
-
-Explore the full project here:  
-👉 [github.com/yourusername/genai-rag-assistant](https://github.com/yourusername/genai-rag-assistant)
