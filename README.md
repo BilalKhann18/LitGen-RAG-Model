@@ -1,6 +1,6 @@
 # GenAI Literature Review Assistant (RAG System)
 
-This project is an end-to-end **Retrieval-Augmented Generation (RAG)** pipeline developed as part of the *Generative AI* module in the MSc Business Analytics programme at **Warwick Business School**. It demonstrates how unstructured academic content can be transformed into an interactive, explainable, and semantically searchable knowledge system using modern GenAI techniques.
+This project is an end-to-end **Retrieval-Augmented Generation (RAG)** pipeline developed as part of the *Generative AI & Applications* module in the MSc Business Analytics programme at **Warwick Business School**. It demonstrates how unstructured academic content can be transformed into an interactive, explainable, and semantically searchable knowledge system using modern GenAI techniques.
 
 The system is designed to automate literature reviews by integrating document processing, vector-based retrieval, and LLM-powered generation — producing **citation-backed, context-grounded responses** in real time.
 
